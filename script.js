@@ -83,7 +83,7 @@ startBtn.onclick = () => {
         countDown = setInterval(timeCount, 1000, val);
         resetBtn.removeAttribute('disabled');
     }else{
-        alert('Please set timer values!');
+        alert('Пожалуйста, установите значения таймера!!');
     }
 
 }
